@@ -1,0 +1,38 @@
+
+
+
+
+
+
+
+
+
+
+$TTL 14400
+@       IN      SOA     ns1.helios.vn.      hostmaster.brity.vn. (
+                                                2018050800
+                                                14400
+                                                3600
+                                                1209600
+                                                86400 )
+
+brity.vn.	14400	IN	NS	ns1.helios.vn.
+brity.vn.	14400	IN	NS	ns2.helios.vn.
+
+brity.vn.	14400	IN	A	115.84.179.104
+ftp	14400	IN	A	115.84.179.104
+mail	14400	IN	A	115.84.179.104
+pop	14400	IN	A	115.84.179.104
+smtp	14400	IN	A	115.84.179.104
+www	14400	IN	A	115.84.179.104
+
+brity.vn.	14400	IN	MX	10 mail
+
+
+
+brity.vn.	14400	IN	TXT	"v=spf1 a mx ip4:115.84.179.106 ~all"
+
+
+
+
+

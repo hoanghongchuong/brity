@@ -1,0 +1,156 @@
+@media screen and (max-width: 1200px){
+    .owl-nav .owl-prev {
+        left: 0 !important;
+    }
+    .owl-nav .owl-next {
+        right: 0 !important;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1200px){
+
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .dash:before {
+        width: 20px;
+        left: -30px;
+    }
+    .mgl-70 {
+        margin-left: 30px;
+    }
+    .pdl-70 {
+        padding-left: 30px;
+    }
+    .service-kind .service-item .ser-title span:last-child {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .visible-mobile {
+        display: none;
+    }
+    .visible-desktop {
+        display: block;
+    }
+    #cd-lateral-nav {
+        display: none;
+    }
+}
+@media screen and (max-width: 767px){
+    .visible-mobile {
+        display: block;
+    }
+    .visible-desktop {
+        display: none;
+    }
+    .pd-60 {
+        padding: 30px 0;
+    }
+    header {
+        background: #333;
+        border-bottom: none;
+        padding: 15px 0;
+    }
+    .pj-list {
+        display: none;
+    }
+    .nav-fixed-header {
+        padding: 30px 0;
+    }
+    header.page-child {
+        background: transparent;
+    }
+    .og-expander-inner {
+        padding: 30px 15px;
+    }
+    .progess-text {
+        margin-bottom: 20px;
+    }
+    .order-1 {
+        order: 2;
+    }
+    .order-2 {
+        order: 1;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h4 {
+        font-size: 22px;
+    }
+    h2 , .join-title h1, .page-title h1{
+        font-size: 22px;
+    }
+    .contact h2 {
+        display: none;
+    }
+    .order-2 .progess-text {
+        text-align: left;
+    }
+    .trend {
+        display: none;
+    }
+    .join-title {
+        margin-bottom: 20px;
+    }
+    .title {
+        padding: 15px;
+    }
+    .client ul li {
+        flex: 0 0 calc(100%/3);
+        -webkit-flex: 0 0 calc(100%/3);
+    }
+    .join-text {
+        margin-top: 20px;
+    }
+    .get-brand {
+        display: none;
+    }
+    .author {
+        padding-top: 120px;
+    }
+    header.page-child-de {
+        background: transparent;
+    }
+    .nav-fixed {
+        position: absolute;
+        height: auto !important;
+    }
+    .service-kind .service-item .ser-title span:last-child {
+        font-size: 24px;
+    }
+    .dash:before {
+        width: 40px;
+        left: -50px;
+    }
+    .mgl-70 {
+        margin-left: 40px;
+    }
+    .pdl-70 {
+        padding-left: 40px;
+    }
+    header.page-child.active {
+        background: rgba(0, 0, 0, 0.8);
+    }
+}
+@media screen and (min-width: 568px) and (max-width: 767px){
+    .og-grid li {
+        height: 240px;
+    }
+    .news-item .col-md-6 {
+       width: 50%;
+    }
+
+}
+@media screen and (max-width: 567px){
+
+    .og-grid li {
+        width: calc(100%/ 1);
+    }
+    .og-grid li {
+        height: 300px;
+    }
+    .news-item .col-md-6:first-child {
+        margin-bottom: 20px;
+    }
+}
